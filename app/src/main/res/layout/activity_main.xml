@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_centerVertical="true"
+    android:weightSum="8"
+    tools:context="kids.cbtjournal.MainActivity">
+
+    <Button
+        android:id="@+id/writeEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffb74d"
+        android:layout_weight="1"
+        android:text="@string/write_entry"
+        android:onClick="openWriteEntry"/>
+
+    <Button
+        android:id="@+id/viewEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#81c784"
+        android:layout_weight="1"
+        android:text="@string/view_entries" />
+
+    <Button
+        android:id="@+id/aboutMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f06292"
+        android:layout_weight="1"
+        android:text="@string/aboutMe" />
+
+    <Button
+        android:id="@+id/unhealthyThinking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e040fb"
+        android:layout_weight="1"
+        android:text="@string/_12_unhealthy_thinking_habits"
+        android:onClick="open12Unhealthy"/>
+
+
+    <Button
+        android:id="@+id/flashcards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#536dfe"
+        android:layout_weight="1"
+        android:text="@string/flash_cards" />
+
+    <Button
+        android:id="@+id/arcadeStory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff5252"
+        android:layout_weight="1"
+        android:text="@string/arcade_story" />
+
+    <Button
+        android:id="@+id/selfPractice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffee58"
+        android:layout_weight="1"
+        android:text="@string/self_practice" />
+
+    <Button
+        android:id="@+id/freestyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#64ffda"
+        android:layout_weight="1"
+        android:text="@string/freestyle" />
+
+
+</LinearLayout>

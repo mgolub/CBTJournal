@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CBTJournal</string>
+    <string name="aboutMe">About Me</string>
+    <string name="_12_unhealthy_thinking_habits">12 Unhealthy \nThinking Habits</string>
+    <string name="view_entries">View Entries</string>
+    <string name="write_entry">Write Entry</string>
+    <string name="flash_cards">Flash Cards</string>
+    <string name="arcade_story">Arcade Story</string>
+    <string name="self_practice">Self Practice</string>
+    <string name="freestyle">Freestyle</string>
+</resources>
